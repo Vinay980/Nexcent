@@ -1,81 +1,65 @@
 # Nexcent Landing Page
 
-A pixel-perfect, responsive recreation of the provided Figma landing page, built as part of the SDE-1 technical assessment.
-
-## Live Design Reference
-
-[Figma Design](https://www.figma.com/proto/NX5vl6kszVZ0OFVLAKJtSn/Minimal-Landing-Page-Design-%7C-Website-Home-Page-Design-%7C-Agency-Website-UI-Design--Community-?node-id=5-573)
+A pixel-perfect and responsive recreation of the provided Figma landing page for the SDE-1 assessment.
 
 ## Tech Stack
 
-- **Next.js** — App Router
-- **React** — Component-based UI
-- **TypeScript** — Type-safe development
-- **Tailwind CSS** — Responsive styling
-- **Next/Image** — Optimized image rendering
+- Next.js (App Router)
+- React
+- TypeScript
+- Tailwind CSS
 
-## Project Overview
+## Features
 
-The application recreates the provided Nexcent landing page while maintaining a clean, scalable, and responsive architecture.
-
-The implementation focuses on:
-
-- Pixel-accurate desktop layout
-- Responsive behavior across screen sizes
+- Pixel-perfect desktop implementation
+- Fully responsive across desktop, tablet, and mobile
+- Responsive navigation
 - Reusable React components
-- Structured content/data separation
-- Server-side rendering with Next.js
-- Accessible semantic HTML
-- Optimized images using `next/image`
-- Maintainable and scalable project organization
+- Data-driven content
+- Optimized images with `next/image`
+- Clean and scalable project structure
 
 ## Project Structure
 
 ```text
-app/
-├── globals.css
-├── layout.tsx
-└── page.tsx
+app/          → Next.js App Router
+components/   → Reusable UI components
+data/         → Structured page content
+public/images → Images and assets
+Getting Started
 
-components/
-├── layout/
-│   └── Header.tsx
-└── sections/
-    ├── Achievements.tsx
-    ├── Calendar.tsx
-    ├── Clients.tsx
-    ├── Community.tsx
-    ├── CommunityCards.tsx
-    ├── CommunityUpdates.tsx
-    ├── Customers.tsx
-    ├── CTA.tsx
-    ├── Footer.tsx
-    ├── Hero.tsx
-    └── Unlock.tsx
+Install dependencies:
 
-data/
-├── achievements.ts
-├── calendar.ts
-├── clients.ts
-├── community.ts
-├── communityCards.ts
-├── communityUpdates.ts
-├── cta.ts
-├── customers.ts
-├── footer.ts
-├── hero.ts
-├── navigation.ts
-└── unlock.ts
+npm install
 
-public/
-└── images/
-    ├── achievements/
-    ├── community/
-    ├── community-updates/
-    ├── customer/
-    ├── icons/
-    ├── mobile-login/
-    ├── client-*.png
-    ├── illustration.png
-    ├── logo.png
-    └── logo-white.png
+Run development server:
+
+npm run dev
+
+Open:
+
+http://localhost:3000
+Production
+
+Build:
+
+npm run build
+
+Start:
+
+npm run start
+Design
+
+Figma Design
+
+Author
+
+Vinay Kumar Mahto
+
+
+Then:
+
+```powershell
+git add README.md
+git commit -m "Update README"
+git push
